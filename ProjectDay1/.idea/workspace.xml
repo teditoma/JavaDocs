@@ -23,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -41,13 +41,24 @@
       <file leaf-file-name="IngrijitorZoo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/IngrijitorZoo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="120">
+              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VeterinarZoo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/VeterinarZoo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+              <folding>
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,16 +74,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GradinaZoo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GradinaZoo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/GradinaZoo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="276">
+              <caret line="34" column="99" lean-forward="false" selection-start-line="34" selection-start-column="99" selection-end-line="34" selection-end-column="99" />
               <folding>
                 <element signature="e#370#371#0" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
                 <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,9 +173,9 @@
         <option value="$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/AnimalManancaAnimalException.java" />
         <option value="$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/AnimalZooRar.java" />
         <option value="$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/AnimalZooFeroce.java" />
+        <option value="$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/GradinaZooMain.java" />
         <option value="$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/IngrijitorZoo.java" />
         <option value="$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/GradinaZoo.java" />
-        <option value="$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/GradinaZooMain.java" />
       </list>
     </option>
   </component>
@@ -822,12 +833,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499155184580</updated>
-      <workItem from="1499155190864" duration="16414000" />
+      <workItem from="1499155190864" duration="18243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16414000" />
+    <option name="totallyTimeSpent" value="18243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1089,48 +1100,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/GradinaZoo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/AngajatZoo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/VeterinarZoo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/IngrijitorZoo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1166,6 +1140,41 @@
             <element signature="e#186#187#0" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
             <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/VeterinarZoo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/IngrijitorZoo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/project/GradinaZoo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="34" column="99" lean-forward="false" selection-start-line="34" selection-start-column="99" selection-end-line="34" selection-end-column="99" />
+          <folding>
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -9,6 +9,7 @@ public class IngrijitorZoo implements AngajatZoo {
     @Override
     public void lucreaza(Animal animal) {
         System.out.println("Ingrijitorul intra in cusca animalului");
+        calculeazaBonusSalarial();
     }
 
     @Override
@@ -20,7 +21,6 @@ public class IngrijitorZoo implements AngajatZoo {
         if ( animal instanceof AnimalZooRar && mancare == null)
             throw new AnimalPeCaleDeDisparitieException();
         lucreaza(animal);
-        calculeazaBonusSalarial();
 
         animal.mananca(mancare);
         animal.faceBaie();

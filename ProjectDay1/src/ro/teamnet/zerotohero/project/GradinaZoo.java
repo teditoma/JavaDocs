@@ -26,13 +26,13 @@ public final class GradinaZoo {
     }
 
     public IngrijitorZoo getAngajatulLunii() {
-        return angajatulLunii;
+        return new IngrijitorZoo();
     }
 
     public GradinaZoo(String denumireGradinaZoo, Date dataDeschideriiGradinii, AnimalZooRar animalRar, IngrijitorZoo angajatulLunii) {
         this.denumireGradinaZoo = denumireGradinaZoo;
-        this.dataDeschideriiGradinii = dataDeschideriiGradinii;
-        this.animalRar = animalRar;
+        this.dataDeschideriiGradinii = new Date(dataDeschideriiGradinii.getTime());
+        this.animalRar = new AnimalZooRar(animalRar.getNumeAnimal(),animalRar.getNumeTaraOrigine());
         this.angajatulLunii = angajatulLunii;
     }
 
