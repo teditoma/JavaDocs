@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+		<changeSet author="Theodor" id="ZTH17THEODORTOMA">
+			<createTable tableName="ZTH17THEODORTOMA_ADDRESS">
+				<column name="adr_id" type="number">
+					<constraints primaryKey="true" nullable="false"/>
+				</column>
+				<column name="street" type="varchar2(50)"/>
+				<column name="no" type="number(6)"/>
+				<column name="city" type="varchar2(30)">
+					<constraints nullable="false"/>
+				</column>
+			</createTable>
+		</changeSet>
+		<changeSet>
+			 <addForeignKeyConstraint baseColumnNames="adress_id"
+            baseTableName="ZTH17THEODORTOMA_PEOPLE"
+            constraintName="fk_address_people"
+            deferrable="true"
+            initiallyDeferred="true"
+            onDelete="CASCADE"
+            onUpdate="RESTRICT"
+            referencedColumnNames="adr_id"
+            referencedTableName="ZTH17THEODORTOMA_ADDRESS"/>
+		</changeSet>
+</databaseChangeLog>

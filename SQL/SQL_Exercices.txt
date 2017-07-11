@@ -1,0 +1,78 @@
+Retrieving Data from database
+
+2.
+
+select first_name, last_name, department_id
+from employees
+where department_id = 90;
+
+3.
+update employees
+set salary = salary * 30 / 100 + salary;
+
+4.
+delete from employees
+where employee_id = 101;
+
+5.
+select first_name, last_name, job_id
+from employees
+where job_id = 'IT_PROG'
+order by first_name;
+
+6.
+select count(employee_id) COUNT
+from employees emp
+where emp.JOB_ID = 'IT_PROG';
+
+7.
+select count(employee_id) COUNT, d.department_name Departament
+from employees emp
+inner join departments d on emp.department_id = d.department_id
+where emp.JOB_ID = 'IT_PROG'
+group by d.department_name;
+     
+8.
+select e.first_name, e.last_name, l.city, l.location_id
+from employees e, locations l, departments d
+where e.department_id = d.department_id and d.location_id = l.location_id and l.city= 'Seattle';
+
+9.
+create view employee_view as
+select e.employee_id, e.first_name, d.department_name
+from employees e, departments d
+where e.department_id = d.department_id;
+
+13. 
+
+select upper(first_name), lower(email)
+from employees;
+
+14.
+select 'First Name: ' || first_name FirstName
+from employees;
+
+15.
+select count(employee_id) nr_employees
+from employees;
+
+16.
+select count(employee_id)
+from employees
+where job_id = 'IT_PROG';
+
+17.
+select count(employee_id), department_id
+from employees
+group by department_id;
+
+18.
+select avg(salary)
+from employees
+where department_id = 50;
+
+19.
+select max(e.salary) Max, min(e.salary) Min
+from employees e, departments d, locations l
+where e.department_id = d.department_id and d.location_id = l.location_id and l.city = 'Seattle';
+
