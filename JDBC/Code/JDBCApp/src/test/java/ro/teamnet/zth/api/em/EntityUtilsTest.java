@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 
 public class EntityUtilsTest {
     @Test
-    public void testGetTableNameMethod() {
+    public void getTableNameMethodTest() {
         String tableName = EntityUtils.getTableName(Department.class);
         assertEquals("Table name should be departments!", "departments", tableName);
     }

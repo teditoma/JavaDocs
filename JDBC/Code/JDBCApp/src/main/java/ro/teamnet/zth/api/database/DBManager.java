@@ -23,7 +23,7 @@ import java.sql.Statement;
 
  */
 public class DBManager {
-    private DBManager() throws UnsupportedOperationException{}
+    DBManager() throws UnsupportedOperationException{}
 
     private static final String CONNECTION_STRING = "jdbc:oracle:thin:@" + DBProperties.IP + ":" + DBProperties.PORT + ":xe";
 
